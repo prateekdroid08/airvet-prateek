@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AirVet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_internet_title">No Internet</string>
+    <string name="turn_on">Please turn on</string>
+    <string name="no_internet_body">You’re not connected to the Internet.\nPlease connect and retry.</string>
+    <string name="something_went_wrong">Something Went Wrong!</string>
+    <string name="profile">Profile</string>
+    <string name="users">Users</string>
+</resources>

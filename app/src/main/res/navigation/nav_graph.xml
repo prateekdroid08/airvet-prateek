@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/usersListFragment">
+
+    <fragment
+        android:id="@+id/usersListFragment"
+        android:name="com.softradix.airvet.ui.fragments.UsersListFragment"
+        android:label="fragment_users_list"
+        tools:layout="@layout/fragment_users_list">
+        <action
+            android:id="@+id/action_usersListFragment_to_usersDetailFragment"
+            app:destination="@id/usersDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/usersDetailFragment"
+        android:name="com.softradix.airvet.ui.fragments.UsersDetailFragment"
+        android:label="fragment_users_detail"
+        tools:layout="@layout/fragment_users_detail" />
+</navigation>
